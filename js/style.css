@@ -1,0 +1,364 @@
+@charset "utf-8";
+/* CSS Document */
+/*** Style Definitions ***/
+html			{ background:#67b2ff; font-family:Arial, Helvetica, sans-serif; }
+
+/*** Clouds ***/
+
+.barrainf				{ width:100%; height:262px; overflow:hidden; }
+
+#cloud2					{ position:relative; top:-262px; }
+#barrainf2				{ width:4000px; height:100%;  repeat-x;}
+
+/*** Header ***/
+h1#logo				{ background: top left no-repeat; height:62px; width:481px;
+						text-indent:-9999px; position:absolute; top:10px; left:10px; }
+
+#menu				{ float:right; position:absolute; top:20px; right:10px; z-index:10; }
+
+#menu a				{
+	background-color:#FFF; color:blue; border:#AAA 3px solid;  text-decoration:none; padding:10px;font-family:"Comic Sans MS", cursive; font-size:12px;margin-right:10px; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;font-weight:bold;text-shadow: 2px 2px 2px white,2px 2px 2px white;}
+					
+#menu a:hover		{ background:-webkit-linear-gradient(left top,blue,White,orange); color:black; border:#FFF 3px solid; text-decoration:none; padding:10px;
+						margin-right:10px; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;
+						text-shadow: 3px 3px 5px transparent,6px 6px 5px transparent;}
+
+#menu a.selected	{ background:#AAA; color:#FFF; border:#67b2ff 3px solid; text-decoration:none; padding:10px;
+						margin-right:10px; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;}
+					
+#menu li			{ float:left; }
+ 
+ h1{ text-align:center; font-family: stencil; font-size:30px;
+}
+/*** Body Content ***/
+#wrapper	{ width:100%; height:100%; position:absolute; top:0; left:0; overflow:hidden; }
+#mask		{ width:400%; height:100%; }
+
+.box1		{ width:25%; height:100%; float:left; background-image:url(../img/fondo.jpg) ;
+}
+.box2		{ width:25%; height:100%; float:left; background-image:url(../img/fondo.jpg);}
+.box3		{ width:25%; height:100%; float:left; background-image:url(../img/fondo.jpg);}
+.box4		{ width:25%; height:100%; float:left; background-image:url(../img/fondo.jpg);}
+
+.content	{ width:84%; height:82%; top:15%; left:15% ; position:relative; background:rgba(255,255,255, 0.3);
+				border-radius:35px; -moz-border-radius:35px; -webkit-border-radius:35px; }
+				
+.inner	{ width:96%; height:92%; background:rgba(255, 255, 255, 0.3); border-radius:30px; -moz-border-radius:30px;
+					-webkit-border-radius:30px; margin:5px; padding:12px; top:5px; position:relative; overflow:auto }
+					
+/*** fuerza militares ***/
+#scejeren{
+	width:200px;
+	height:210px;
+	background-color:transparent;
+	position:absolute;
+	background-image:url(../img/Logo-Ejercito-small.gif);
+	background-position:center;
+	background-repeat:no-repeat;
+
+		
+}
+#galcg{width:170px;
+height:380;
+background-color:transparent;
+position:relative;
+overflow:auto;}
+
+#galcg2{
+	width:95%;
+	height:420px;
+	background-color:transparent;
+	position:absolute;
+	top:20px;
+	left:20px;
+	float:right;
+	border-radius:20px;
+}
+
+#logo1{
+	width:212px;
+	height:254px;
+	position:absolute;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-image:url(../img/cgfm2.png);
+}
+/*** fin fuerza militares ***/
+/*** ejercito ***/
+
+ #contopc{
+	 width:20%;
+	 height:80%;
+	 top:5px;
+	 position:relative;
+	 background-color:transparent;
+}
+#mision{
+	background-position:center;
+ text-shadow: 3px 3px 5px orange,
+               6px 6px 5px white,
+               9px 9px 5px blue;
+	width:100px;
+	color:white;
+	height:10px;
+	position:relative;
+	font-family: Cooper Black;
+	font-size:30px;
+	text-align:center;
+	padding:50px;
+	border-radius:20px 20px 0px 0px;
+}
+#vision{
+
+	background-position:center;
+text-shadow: 3px 3px 5px orange,
+               6px 6px 5px white,
+               9px 9px 5px blue;
+	width:100px;
+	height:10px;
+	position:relative;
+	font-family: Cooper Black;
+	font-size:30px;
+	text-align:center;
+		color:white;
+	padding:50px;
+}
+	
+	#himno{
+
+	background-position:center;
+text-shadow: 3px 3px 5px orange,
+               6px 6px 5px white,
+               9px 9px 5px blue;
+	width:100px;
+	height:10px;
+	position:relative;
+	font-family: Cooper Black;
+	font-size:30px;
+	text-align:center;
+		color:white;
+	padding:50px;
+}
+	
+	#video{
+
+	background-position:center;
+text-shadow: 3px 3px 5px orange,
+               6px 6px 5px white,
+               3px 3px 5px blue;
+	width:100px;
+	height:10px;
+		color:white;
+	position:relative;
+	font-family: Cooper Black;
+	font-size:30px;
+	text-align:center;
+	padding:50px;
+		border-radius:0px 0px 20px 20px;
+}
+
+#centroeje1{
+background-image:url(../img/fondo2.jpg);
+	width:810px;
+	height:440px;
+	border-radius:20px;
+	background-color:white;
+	position:absolute;
+	top:15px;
+	left:230px;
+	float:right;
+	overflow:auto;
+}
+#centroeje2{
+background-image:url(../img/fondo2.jpg);
+	width:810px;
+	height:440px;
+	border-radius:20px;
+	background-color:white;
+	position:absolute;
+	top:15px;
+	left:230px;
+	float:right;
+	overflow:auto;
+}
+	#centroeje3{
+background-image:url(../img/fondo2.jpg);
+	width:810px;
+	height:440px;
+	border-radius:20px;
+	background-color:white;
+	position:absolute;
+	top:15px;
+	left:230px;
+	float:right;
+	overflow:auto;
+}
+	
+	#centroeje4{
+background-image:url(../img/fondo2.jpg );
+	width:810px;
+	height:440px;
+	border-radius:20px;
+	background-color:white;
+	position:absolute;
+	top:15px;
+	left:230px;
+	float:right;
+	overflow:auto;
+}
+	
+	
+#audio{
+	position:absolute;
+	height:30px;
+	width:100px;
+	top:250;
+	left:150px;}
+	
+	
+	 
+#portadaaudio{	
+	position:absolute;
+	height:194px;
+	width:250px;
+	top:40px;
+	left:180px;
+	background-image:url(../img/escudoejer.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+#bot{width:250px;
+height:25px;
+background-color:transparent;
+position:relative;
+left:190px;
+}
+ #contvideo{
+	 width:300px;
+	 height:300px;
+	 position:absolute;
+	 left:10px;
+	 top:30px;	
+	 background-color:transparent; }
+	 /* ARMADA*/
+
+#misiona{
+	width:150px;
+	height:50px;
+	position:absolute; 
+	top:10%;
+	left:100px;
+	color:white;
+		font-family: Cooper Black;
+text-shadow: 3px 3px 5px orange,
+               6px 6px 5px white,
+               3px 3px 5px blue;
+}
+#visiona{
+		color:white;
+	width:150px;
+	height:50px;
+	position:absolute; 
+	top:10%;
+	left:250px;
+     font-family: Cooper Black;
+		border-radius:10px 10px 0px 0px;
+text-shadow: 3px 3px 5px orange,
+               6px 6px 5px white,
+               3px 3px 5px blue;
+				}
+	#himnoa{
+			color:white;
+	width:150px;
+	height:50px;
+	position:absolute; 
+	top:10%;
+	left:400px;
+		border-radius:10px 10px 0px 0px;
+				font-family: Cooper Black;
+text-shadow: 3px 3px 5px orange,
+               6px 6px 5px white,
+               3px 3px 5px blue;
+
+}
+	 #videoa{
+		 	color:white;
+	width:150px;
+	height:50px;
+	position:absolute; 
+	top:10%;
+	left:550px;
+		border-radius:10px 10px 0px 0px;
+				font-family: Cooper Black;
+text-shadow: 3px 3px 5px orange,
+               6px 6px 5px white,
+               3px 3px 5px blue;
+
+
+		}
+	
+	 #mision1{
+		 
+	width:950px;
+	height:345px;
+	position:absolute;
+	top:20%;
+	left:100px;
+	border-radius:0px 20px 20px 20px;
+background-image:url(../img/fondo2.jpg );
+			 ; /* Chrome, Safari, Opera */}
+	
+	 #vision1{
+	width:950px;
+	height:345px;
+	position:absolute;
+	top:20%;
+	left:100px;
+	display:none;
+		border-radius:0px 20px 20px 20px;
+background-image:url(../img/fondo2.jpg );}
+	#himno1{
+	width:950px;
+	height:345px;
+	position:absolute;
+	top:20%;
+	left:100px;
+	display:none;
+		border-radius:0px 20px 20px 20px;
+background-image:url(../img/fondo2.jpg );}
+	 #video1{
+	width:950px;
+	height:345px;
+	position:absolute;
+	top:20%;
+	left:100px;
+	display:none;
+		border-radius:0px 20px 20px 20px;
+background-image:url(../img/fondo2.jpg );}
+#escarm{
+	width:100px;
+	height:100px;
+	background-color:transparent;
+	position:relative;
+	top:10px;
+	left:250px;
+}
+#sarm{
+	width:200px;
+	height:260px;
+	background-color:transparent;
+	position:absolute;
+	background-image:url(../img/armada.png);
+	background-position:center;
+	background-repeat:no-repeat;	
+}
+#sfa{
+	width:200px;
+	height:260px;
+	background-color:transparent;
+	position:absolute;
+	background-image:url(../img/sfa.png);
+	background-position:center;
+	background-repeat:no-repeat;	
+}
+	
